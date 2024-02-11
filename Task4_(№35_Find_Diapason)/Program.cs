@@ -15,7 +15,8 @@ int[] FillArray(int [] array)
     return array;
 }
 
-int[] array = new int [123];
+
+int[] array = new int [125];
 int[] iobArray = FillArray(array);
 Console.WriteLine(String.Join(", ", array));
 Find (iobArray);
