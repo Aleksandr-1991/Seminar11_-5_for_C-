@@ -1,4 +1,4 @@
-﻿// Зад. 32: Нап программу замена эл-тов массива: полож-е элементы замените на соот-ие отриц-е, и наоборот.
+﻿// Зад. 32: Прога заменяет полож-е элементы массива на соот-щие отриц-е, и наоборот.
 int[] GenerateArray(int lengthArray)
 {
     int[] array = new int[lengthArray];
@@ -10,7 +10,7 @@ int[] GenerateArray(int lengthArray)
 }
 void WriteArray(int[] array)
 {
-    for (int i =0; i < array.Length - 1; i++)  Console.Write(array[i] + ", ");
+    for (int i = 0; i < array.Length - 1; i++)  Console.Write(array[i] + ", ");
     Console.WriteLine(array[array.Length -1]);
 }
 void Reverse(int[] mas)
